@@ -50,7 +50,8 @@ public class Task {
 
     @Override
     public String toString() {
-        return String.format("%-20s | %-10s | %-10s | %-30s | %-10s", taskName, priority, deadLine, description, isStatus());
+        //return String.format("%-20s | %-10s | %-10s | %-30s | %-10s", taskName, priority, deadLine, description, isStatus());
+        return "Task = " + taskName + ", Priority = " + priority + ", Deadline = " + deadLine + ", Description = " + description + ", " + isStatus() + "\n";
     }
 
 }
